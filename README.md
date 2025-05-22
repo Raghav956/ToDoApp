@@ -13,13 +13,18 @@ Frontend runs on: http://localhost:3000
 
 
 Setup Instructions
-1. Clone the Repository
-2.Slack Webhook Setup
+1. Clone the Repository or Download the Zip
+2. import the todo(backend) to your editor
+3. import the fronttodo(Front-End) to your editor 
+
+4.Slack Webhook Setup
 To allow the app to send task summaries to your Slack workspace:
 	1.	Create a Slack App with Incoming Webhooks enabled.
 	2.	Install the app to your workspace.
 	3.	Copy the generated Webhook URL.
-  4.	paste the url in the application.properties in the slack.webhook.url
+  	4.paste the url in the application.properties in the slack.webhook.url
+5.run the backend
+6) run the front-end(npm start)
 
 
 Task has 4 attributes
